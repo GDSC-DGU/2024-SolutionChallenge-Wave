@@ -50,7 +50,7 @@ This approach not only keeps the audience informed about the latest developments
 ##### Download the apk file here.
 ##### Run the apk file on your phone or the emulator.
 ##### To ensure the best experience while testing our app, we recommend testing it in a Pixel 7 Pro API 34 or higher!
-### [Wave APK Link](https://apps.apple.com/us/app/인터미션-intermission/id6471970116) ⭐️(최종제출 버전 등록후 수정)
+### [Wave APK Link](https://github.com/GDSC-DGU/2024-SolutionChallenge-Wave/releases/tag/1.0.0) 
 
 ## Flutter Project Build Instructions
 
