@@ -42,7 +42,7 @@ This approach not only keeps the audience informed about the latest developments
 - Here's how you can set up a testing environment.
 - Download the apk file here.
 - Run the apk file on your phone or the emulator.
-- To ensure the best experience while testing our app, we recommend testing it in a Pixel 7 Pro API 34 or higher!
+- To ensure the best experience while testing our app in Emulator, we recommend testing it in a Pixel 7 Pro API 34 or higher!
 ### [Wave APK Link](https://github.com/GDSC-DGU/2024-SolutionChallenge-Wave/releases/tag/1.0.0) 
 ### [Server Execution Method](https://github.com/GDSC-DGU/2024-SolutionChallenge-Wave/blob/main/Server-Deploy.md)
 
