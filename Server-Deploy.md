@@ -89,7 +89,7 @@
      
 3. **Init.sql**
    
-   For the application to function properly, you need to create several tables in your database. This setup is crucial for managing users, donations, countries, and other related data. Below is the `init.sql` file content that you should include in your project to initialize your database schema:
+To initialize your database schema, you should create an init.sql file containing the schema definitions. This file should be placed in the same directory as your docker-compose.yml file. Including this init.sql file in your project at the specified location will ensure that your database is correctly set up when you start your application using Docker Compose.
 
    ```sql
     -- Users Table
