@@ -5,9 +5,11 @@ from apscheduler.schedulers.background import BackgroundScheduler
 import logging
 from flask import Flask, jsonify
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
 
 app = Flask(__name__)
+
+app.logger.setLevel(logging.ERROR)
 
 COUNTRY_IDS = {
     "Uganda": 165,
@@ -119,7 +121,6 @@ def scheduled_crawling():
             logging.info(f"Successfully sent news items for {country_name}.")
         else:
             logging.error(f"Failed to send data for {country_name}. HTTP Status Code: {response.status_code}")
-
 
 
 scheduler = BackgroundScheduler()

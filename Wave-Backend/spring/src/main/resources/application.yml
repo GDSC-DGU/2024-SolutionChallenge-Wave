@@ -22,3 +22,6 @@ default:
     image:
       url: "https://storage.googleapis.com/wave-app-bucket/default_news_image.png"
 
+logging:
+  level:
+    root: error
