@@ -52,38 +52,6 @@ This approach not only keeps the audience informed about the latest developments
 ##### To ensure the best experience while testing our app, we recommend testing it in a Pixel 7 Pro API 34 or higher!
 ### [Wave APK Link](https://github.com/GDSC-DGU/2024-SolutionChallenge-Wave/releases/tag/1.0.0) 
 
-## Flutter Project Build Instructions
-
-#### To run the Flutter project, execute the following commands
-
-```sh
-flutter pub get
-flutter run
-
-## If you encounter any issues in iOS build, follow these steps to clean your build cache for iOS
-cd ios
-rm Podfile.lock
-rm Podfile
-rm -rf Pods
-pod cache clean --all
-cd ..
-flutter clean
-flutter pub get
-cd ios
-pod install
-flutter pub get
-flutter run
-
-## If you encounter any issues in Android build, follow these steps to clean your build cache for Android 
-cd android
-./gradlew clean
-cd ..
-flutter clean
-flutter pub get
-flutter run
-
-```
-
 
 # 📸 ScreenShot & Description
 ![WAVE README-01](https://github.com/GDSC-DGU/2024-SolutionChallenge-Wave-Frontend/assets/106448279/0f34363f-0565-49b3-88fd-66b85eb66e36)
